@@ -59,21 +59,21 @@
 						<div class="row">
 							<div class="col-md-4">
 								<div class="form-section">
-									<input type="text" name="name" [(ngModel)]="Contact.name" placeholder="YOUR NAME">
+									<input type="text" name="name" [(ngModel)]="contact.name" placeholder="YOUR NAME">
 								</div>
 							</div>
 							<div class="col-md-4">
 								<div class="form-section">
-									<input type="text" name="email" [(ngModel)]="Contact.email" placeholder="YOUR EMAIL">
+									<input type="text" name="email" [(ngModel)]="contact.email" placeholder="YOUR EMAIL">
 								</div>
 							</div>
 							<div class="col-md-4">
 								<div class="form-section">
-									<input type="text" name="subject" [(ngModel)]="Contact.subject" placeholder="YOUR SUBJECT">
+									<input type="text" name="subject" [(ngModel)]="contact.subject" placeholder="YOUR SUBJECT">
 								</div>
 							</div>
 							<div class="col-md-12">
-								<textarea name="message" id="" [(ngModel)]="Contact.message" placeholder="YOUR MESSAGE"></textarea>
+								<textarea name="message" id="" [(ngModel)]="contact.message" placeholder="YOUR MESSAGE"></textarea>
 								<button type="submit" value="save" class="btn btn-contact">SEND MESSAGE</button>
 							</div>
 							<pre>{{ getCurrentContact() }}</pre>

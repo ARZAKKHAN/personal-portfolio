@@ -11,7 +11,7 @@ import { Subject } from 'rxjs';
 export class ContactComponent implements OnInit {
   title = 'contact';
   // tslint:disable-next-line:new-parens
-  Contact = {
+  contact = {
     name : '',
     email: '',
     subject: '',
