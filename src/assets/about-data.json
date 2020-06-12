@@ -1,0 +1,155 @@
+{
+	"about" : {
+		"PersonalInfo" : {
+			"title" : "Personal Infos",
+			"fields" : [
+				{
+					"id":"01",
+					"fieldTitle": "First Name",
+					"fieldDesc": "lorem"
+				},
+				{
+					"id":"02",
+					"fieldTitle": "Last Name",
+					"fieldDesc": "lorem"
+				},
+				{
+					"id":"03",
+					"fieldTitle": "Age",
+					"fieldDesc": "lorem"
+				},
+				{
+					"id":"04",
+					"fieldTitle": "Nationality",
+					"fieldDesc": "lorem"
+				},
+				{
+					"id":"05",
+					"fieldTitle": "Freelance",
+					"fieldDesc": "lorem"
+				}
+			],
+			"secondfields": [
+				{
+					"id":"06",
+					"fieldTitle": "Address",
+					"fieldDesc": "lorem"
+				},
+				{
+					"id":"06",
+					"fieldTitle": "Phone",
+					"fieldDesc": "lorem"
+				},
+				{
+					"id":"07",
+					"fieldTitle": "Email",
+					"fieldDesc": "lorem"
+				},
+				{
+					"id":"08",
+					"fieldTitle": "Skype",
+					"fieldDesc": "lorem"
+				},
+				{
+					"id":"09",
+					"fieldTitle": "Languages",
+					"fieldDesc": "lorem"
+				}
+			],
+			"experience": [
+				{
+					"id":"01",
+					"numExperience": "12",
+					"experiencedesc": "Years of Experience"
+				},
+				{
+					"id":"02",
+					"numExperience": "12",
+					"experiencedesc": "Years of Experience"
+				},
+				{
+					"id":"03",
+					"numExperience": "12",
+					"experiencedesc": "Years of Experience"
+				},
+				{
+					"id":"04",
+					"numExperience": "12",
+					"experiencedesc": "Years of Experience"
+				}
+			],
+			"skills" : [
+				{
+					"skillsPercent": "25%",
+					"skillsDesc": "Html"
+				},
+				{
+					"skillsPercent": "89%",
+					"skillsDesc": "Javascript"
+				},
+				{
+					"skillsPercent": "70%",
+					"skillsDesc": "Css"
+				},
+				{
+					"skillsPercent": "66%",
+					"skillsDesc": "php"
+				},
+				{
+					"skillsPercent": "95%",
+					"skillsDesc": "Wordpress"
+				},
+				{
+					"skillsPercent": "50%",
+					"skillsDesc": "Jquery"
+				},
+				{
+					"skillsPercent": "65%",
+					"skillsDesc": "Angular"
+				},
+				{
+					"skillsPercent": "45%",
+					"skillsDesc": "React"
+				}
+			],
+			"educations": [
+				{
+					"titleDuration": "2018-present",
+					"title": "Web Developer",
+					"titleSub": " - Envato",
+					"descriptions": "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, sed do tempor incididunt ut labore"
+				},
+				{
+					"titleDuration": "2018-present",
+					"title": "Web Developer",
+					"titleSub": " - Envato",
+					"descriptions": "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, sed do tempor incididunt ut labore"
+				},
+				{
+					"titleDuration": "2018-present",
+					"title": "Web Developer",
+					"titleSub": " - Envato",
+					"descriptions": "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, sed do tempor incididunt ut labore"
+				},
+				{
+					"titleDuration": "2018-present",
+					"title": "Web Developer",
+					"titleSub": " - Envato",
+					"descriptions": "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, sed do tempor incididunt ut labore"
+				},
+				{
+					"titleDuration": "2018-present",
+					"title": "Web Developer",
+					"titleSub": " - Envato",
+					"descriptions": "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, sed do tempor incididunt ut labore"
+				},
+				{
+					"titleDuration": "2018-present",
+					"title": "Web Developer",
+					"titleSub": " - Envato",
+					"descriptions": "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, sed do tempor incididunt ut labore"
+				}
+			]
+		}
+	}
+}

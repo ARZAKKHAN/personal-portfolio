@@ -1,0 +1,39 @@
+.content {
+	padding-top: 220px;
+    position: fixed;
+	h1{
+		font-size: 45px;
+		line-height: 45px;
+		font-weight: 700;
+		color: white;
+		span {
+			color: #ffb400;
+		}
+	}
+	h2{
+		font-size: 24px;
+		color: white;
+	}
+	p{
+		font-size: 18px;
+		line-height: 32px;
+		color: white;
+	}
+	button {
+		background: #ffb400;
+		width: 200px;
+		height: 45px;
+		border-radius: 22px;
+		border: 0px;
+		color: white;
+		font-size: 16px;
+		margin-top: 20px;
+
+		.content-btn{
+			background: #ffb400;
+			width: 70px;
+			height: 30px;
+			border-radius: 16px;
+		}
+	}
+}

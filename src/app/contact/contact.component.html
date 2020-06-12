@@ -1,0 +1,86 @@
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="contact-content">
+					<div class="title-bg">
+						<h1>CONTACT</h1>
+					</div>
+					<div class="title">
+						<h2>GET IN  <span>TOUCH</span></h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="contact-disc">
+					<h2>DON'T BE SHY !</h2>
+					<p class="mb-3">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+					<p class="coustom-contact"><i class="fa fa-envelope-open"></i>
+						<span >MAIL ME</span>
+						arzakkhan2@gmail.com
+					</p>
+					<p class="coustom-contact"><i class="fa fa-phone-square"></i>
+						<span >CALL ME</span>
+						3510809476
+					</p>
+					<ul class="social-list">
+						<li class="social-icons">
+							<a title="facebook" href="">
+								<i class="fa fa-facebook-f"></i>
+							</a>
+						</li>
+						<li class="social-icons">
+							<a  title="twiter" href="">
+								<i class="fa fa-twitter"></i>
+							</a>
+						</li>
+						<li class="social-icons">
+							<a  title="youtube" href="">
+								<i class="fa fa-youtube"></i>
+							</a>
+						</li>
+						<li class="social-icons">
+							<a  title="instagram" href="">
+								<i class="fa fa-instagram"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div class="form-wrap">
+					<form (ngSubmit)="onSubmit()" #ContactForm="ngForm">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-section">
+									<input type="text" name="name" [(ngModel)]="Contact.name" placeholder="YOUR NAME">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-section">
+									<input type="text" name="email" [(ngModel)]="Contact.email" placeholder="YOUR EMAIL">
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-section">
+									<input type="text" name="subject" [(ngModel)]="Contact.subject" placeholder="YOUR SUBJECT">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<textarea name="message" id="" [(ngModel)]="Contact.message" placeholder="YOUR MESSAGE"></textarea>
+								<button type="submit" value="save" class="btn btn-contact">SEND MESSAGE</button>
+							</div>
+							<pre>{{ getCurrentContact() }}</pre>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
