@@ -11,9 +11,6 @@ import {ProgressSpinnerMode} from '@angular/material/progress-spinner';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-  color: ThemePalette = 'primary';
-  mode: ProgressSpinnerMode = 'determinate';
-  value = 50;
   public abouts;
   public fields;
   public secondfield;

@@ -22,10 +22,10 @@ export class ContactComponent implements OnInit {
 
   onSubmit(){
     this.submitted = true;
-    console.log('cotact ===========>', this.Contact);
+    console.log('cotact ===========>', this.contact);
   }
   getCurrentContact() {
-    return JSON.stringify(this.Contact);
+    return JSON.stringify(this.contact);
   }
 
   constructor() { }

@@ -27,6 +27,19 @@
 		}
 	}
 }
+
+::ng-deep mat-progress-spinner{
+	display: flex;
+	margin: 0px auto;
+	circle {
+		stroke: #ffb400 !important;
+	}			
+}
+::ng-deep .mat-progress-bar-fill::after {
+	background-color: #ffb400;
+	
+}
+
 .info-section {
 	color: #fff;
 	width: 100%;
@@ -62,6 +75,7 @@
 			}
 		}
 	}
+	
 	.box-stats {
 		padding: 20px 30px 0px 40px;
 		border-radius: 5px;
@@ -113,6 +127,12 @@
 		margin-bottom: 40px;
 	}
 	.boxes {
+		.wrapper-spinner {
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			flex-flow: column;
+		}
 
 		.wraper {
 			width: 120px;

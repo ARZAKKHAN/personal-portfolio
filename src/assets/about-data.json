@@ -80,34 +80,42 @@
 			],
 			"skills" : [
 				{
+					"skillValue": "25",
 					"skillsPercent": "25%",
 					"skillsDesc": "Html"
 				},
 				{
+					"skillValue": "89",
 					"skillsPercent": "89%",
 					"skillsDesc": "Javascript"
 				},
 				{
+					"skillValue": "70",
 					"skillsPercent": "70%",
 					"skillsDesc": "Css"
 				},
 				{
+					"skillValue": "66",
 					"skillsPercent": "66%",
 					"skillsDesc": "php"
 				},
 				{
+					"skillValue": "95",
 					"skillsPercent": "95%",
 					"skillsDesc": "Wordpress"
 				},
 				{
+					"skillValue": "50",
 					"skillsPercent": "50%",
 					"skillsDesc": "Jquery"
 				},
 				{
+					"skillValue": "65",
 					"skillsPercent": "65%",
 					"skillsDesc": "Angular"
 				},
 				{
+					"skillValue": "45",
 					"skillsPercent": "45%",
 					"skillsDesc": "React"
 				}

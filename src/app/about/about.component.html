@@ -66,10 +66,11 @@
 								<h2>{{skill.skillsPercent}}</h2>
 							</div>
 							<h4>{{skill.skillsDesc}}</h4> -->
-							<mat-progress-spinner mode="determinate" value='66'>
+							<div class="wrapper-spinner">
+								<mat-progress-spinner mode="determinate" [value]="skill.skillValue"></mat-progress-spinner>
 								<h2>{{skill.skillsPercent}}</h2>
-							</mat-progress-spinner>
-							<h4>{{skill.skillsDesc}}</h4>
+								<h4>{{skill.skillsDesc}}</h4>
+							</div>
 						</div>
 					</div>
 				</div>
