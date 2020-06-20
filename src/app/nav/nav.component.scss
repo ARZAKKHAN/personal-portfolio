@@ -3,33 +3,78 @@
 	padding: 200px 0px;
 	position: fixed;
 	top: -30px;
-}.navigation {
-	text-align: right;
+	max-width: 70px;
+}
+.navigation {
 	padding: 20px;
-	display: inline-block;
-
 	ul {
 		margin: 0px;
 		padding: 0px;
+		-webkit-transform: translate(-270px, 0);
+		-moz-transform: translate(-270px, 0);
+		-ms-transform: translate(-270px, 0);
+		-o-transform: translate(-270px, 0);
+		transform: translate(-270px, 0);
 		li{
-			list-style: none;
-			background: #2b2a2a;
-			margin-bottom: 17px;
-			transition: .7s;
-			border-radius: 50%;
+			display: block;
+			margin: 12px 5px;
+			background: #ffb400 transparent;
+			opacity: 0.8;
+			width: 300px;
+			text-align: right;
+			padding: 5px;
+			-webkit-border-radius: 0 30px 30px 0;
+			-moz-border-radius: 0 30px 30px 0;
+			border-radius: 0 30px 30px 0;
+			-webkit-transition: all 1s;
+			-moz-transition: all 1s;
+			-ms-transition: all 1s;
+			-o-transition: all 1s;
+			transition: all 1s;
 			&:hover {
-				background: orange;
+				-webkit-transform: translate(80px, 0);
+				-moz-transform: translate(80px, 0);
+				-ms-transform: translate(80px, 0);
+				-o-transform: translate(80px, 0);
+				transform: translate(80px, 0);
+				background:  #ffb400;
+				a {
+					color: #ffff;
+				}
+				i {
+					color: #ffffff;
+					background: #252525;
+					-webkit-transform: rotate(360deg);
+					-moz-transform: rotate(360deg);
+					-ms-transform: rotate(360deg);
+					-o-transform: rotate(360deg);
+					transform: rotate(360deg);
+					-webkit-transition: all 1s;
+					-moz-transition: all 1s;
+					-ms-transition: all 1s;
+					-o-transition: all 1s;
+					transition: all 1s;
+				}
 			}
-
-			a{
-				width: 50px;
-				height: 50px;
+			i {
+				margin-left: 16px;
+				color: #fff;
+				background: #252525;
+				padding: 10px 12px;
 				border-radius: 50%;
-				text-align: center;
-				display: block;
-				line-height: 50px;
-				color: white;
+				width: 40px;
+				height: 40px;
 				font-size: 20px;
+				transform: rotate(0deg);
+				-webkit-transform: rotate(0deg);
+				-moz-transform: rotate(0deg);
+				-ms-transform: rotate(0deg);
+				-o-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+			a{
+				color: #ffff;
+				text-decoration: none;
 			}
 		}
 	}

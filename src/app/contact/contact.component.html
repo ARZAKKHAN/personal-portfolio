@@ -74,7 +74,11 @@
 							</div>
 							<div class="col-md-12">
 								<textarea name="message" id="" [(ngModel)]="contact.message" placeholder="YOUR MESSAGE"></textarea>
-								<button type="submit" value="save" class="btn btn-contact">SEND MESSAGE</button>
+								<div class="btn-wrap">
+									<button type="submit" value="save" class="btn btn-contact">
+										<span>SEND MESSAGE</span>
+									</button>
+								</div>
 							</div>
 							<pre>{{ getCurrentContact() }}</pre>
 						</div>

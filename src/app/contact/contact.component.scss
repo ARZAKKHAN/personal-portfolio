@@ -1,4 +1,6 @@
 @import '../../device.scss';
+$border-width: .5rem;
+$corner-size: 3rem;
 .contact-content {
 	text-align: center;
 	padding-top: 200px;
@@ -141,14 +143,54 @@
 		border-radius: 30px;
 		outline: none !important;
 	}
-	button.btn {
-		border-radius: 26px;
-		font-weight: 500;
-		height: 46px;
-		line-height: 42px;
-		font-size: 15px;
-		background: #ffb400;
-		padding: 0 40px;
-		color: #fff;
+	.btn-wrap {
+		display: block;
+		button.btn {
+			font-family: 'Lato', sans-serif;
+			letter-spacing: .02rem;
+			cursor: pointer;
+			background: transparent;
+			border: .1rem solid currentColor;
+			padding: 1.1rem 1rem;
+			color: #ffb400;
+			position: relative;
+			transition: color .3s;
+			font-size: 15px;
+			&:hover {
+				color: #ffb400;
+				&::before { width: 0; }
+				&::after { height: 0; }
+			}
+			&:active {
+				border-width: .5rem / 2;
+			}
+			span {
+				position: relative;
+				z-index: 2;
+				color: #fff;
+			}
+			  &::before, &::after {
+				content: '';
+				position: absolute;
+				background: #111;
+				z-index: 1;
+				transition: all .3s;
+			  }
+			  &::before {
+				width: calc(100% - #{$corner-size});
+				height: calc(101% + #{$border-width * 2});
+				top: -$border-width;
+				left: 50%;
+				transform: translateX(-50%);
+			  }
+			  &::after {
+				height: calc(100% - #{$corner-size});
+				width: calc(101% + #{$border-width * 2});
+				left: -$border-width;
+				top: 50%;
+				transform: translateY(-50%);
+			  }
+		}
 	}
+
 }
