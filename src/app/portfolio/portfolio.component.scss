@@ -1,3 +1,5 @@
+@import '../../device';
+
 .portfolio-content {
 	text-align: center;
 	padding-top: 200px;
@@ -17,7 +19,9 @@
 	.title {
 		position: relative;
 		top: -75px;
+		
 		h2 {
+			
 			font-size: 56px;
 			font-weight: 900;
 			color: #fff;
@@ -26,13 +30,40 @@
 			}
 		}
 	}
+	@include tablet {
+		
+		.title {
+			h2 {
+				font-size: 46px;
+			}
+		}
+		.title-bg{
+			h1 {
+				font-size: 90px;
+			}
+		}
+	}
+
+	@include mobileL {
+		.title{
+			h2 {
+				font-size: 36px;
+			}
+		}
+		.title-bg{
+			h1 {
+				font-size: 70px;
+			}
+		}
+	}
 }
 .grid-wrap {
-
+	
 	.boxes-wrap {
 
 		ul {
-
+			margin: 0px;
+			padding: 0px;
 			li {
 				list-style:  none;
 				left: 0px;

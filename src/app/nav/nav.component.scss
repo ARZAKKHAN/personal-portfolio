@@ -1,3 +1,4 @@
+@import '../../device.scss';
 .main-wraper {
 	padding: 200px 0px;
 	position: fixed;
@@ -8,7 +9,8 @@
 	display: inline-block;
 
 	ul {
-
+		margin: 0px;
+		padding: 0px;
 		li{
 			list-style: none;
 			background: #2b2a2a;

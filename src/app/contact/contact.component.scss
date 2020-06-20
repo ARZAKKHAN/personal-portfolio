@@ -1,3 +1,4 @@
+@import '../../device.scss';
 .contact-content {
 	text-align: center;
 	padding-top: 200px;
@@ -23,6 +24,31 @@
 			color: #fff;
 			span {
 				color: #ffb400;
+			}
+		}
+	}
+	@include tablet {
+		.title {
+			h2 {
+				font-size: 46px;
+			}
+		}
+		.title-bg{
+			h1 {
+				font-size: 90px;
+			}
+		}
+	}
+
+	@include mobileL {
+		.title{
+			h2 {
+				font-size: 36px;
+			}
+		}
+		.title-bg{
+			h1 {
+				font-size: 70px;
 			}
 		}
 	}
@@ -59,13 +85,14 @@
 			display: block;
 		}
 	}
-	ul {
+	.social-list {
 		list-style: none;
 		padding: 0px;
-		margin: 30px 0px;
-		li {
+		margin: 20px 0px;
+		.social-icons {
 			list-style: none;
 			display: inline-block;
+			margin: 10px 0px;
 
 			a {
 				height: 40px;

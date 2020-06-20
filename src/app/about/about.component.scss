@@ -1,3 +1,4 @@
+@import '../../device.scss';
 .about-content {
 	text-align: center;
 	padding-top: 200px;
@@ -26,6 +27,31 @@
 			}
 		}
 	}
+	@include tablet {
+		.title {
+			h2 {
+				font-size: 46px;
+			}
+		}
+		.title-bg{
+			h1 {
+				font-size: 90px;
+			}
+		}
+	}
+
+	@include mobileL {
+		.title{
+			h2 {
+				font-size: 36px;
+			}
+		}
+		.title-bg{
+			h1 {
+				font-size: 70px;
+			}
+		}
+	}
 }
 
 ::ng-deep mat-progress-spinner{
@@ -43,7 +69,8 @@
 .info-section {
 	color: #fff;
 	width: 100%;
-	button {
+	
+	button.cvButton {
 		width: 180px;
 		height: 45px;
 		color: #fff;
@@ -52,9 +79,13 @@
 		border-radius: 26px;
 		font-weight: 500;
 		font-size: 16px;
+		margin: 10px 0px;
 		a {
 			color: #fff;
 			text-decoration: none;
+		}
+		@include tabletL {
+			margin-bottom: 20px;
 		}
 	}
 	.personal-info {
@@ -139,7 +170,8 @@
 			h2 {
 				top: 32px;
 				color: #fff;
-				left: 127px;
+				left: 0;
+				right: 0;
 				text-align: center;
 				font-size: 24px;
 				font-weight: 600;
@@ -211,68 +243,78 @@
 	}
 	.boxes {
 		margin-bottom: 62px;
-		ul {
-
-			li {
-				list-style: none;
-				.icon {
-					width: 40px;
-					height: 40px;
-					border-radius: 50%;
-					background: #ffb400;
-					margin-right: 25px;
+		position: relative;
+		padding-left: 40px;
+		display: flex;
+    justify-content: center;
+		.contentWrap{
+			.icon {
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				border-radius: 50%;
+				left: -40px;
+				top: 0px;
+				background: #ffb400;
+				display: inline-block;
+				z-index: 4;
+				i {
+					font-size: 16px;
+					text-align: center;
+					color: #fff;
+					display: block;
+					padding: 12px 0px;
+				}
+			}
+			padding-left: 20px;
+			position: relative;
+			&::before {
+				position: absolute;
+				left: -20px;
+				z-index: 2;
+				top: 10px;
+				width: 1px;
+				height: calc(100% - 24%);
+				content: "";
+				background-color: #333;
+			}
+			.year-title{
+				background: #333;
+				padding: 4px 10px;
+				border-radius: 17px;
+				color: #b0b0b0;
+				font-size: 12px;
+				font-weight: 500;
+			}
+			.inner-text{
+				margin-top: 20px;
+				.title {
+					color: #fff;
 					display: inline-block;
-					i {
-						font-size: 16px;
-						text-align: center;
-						color: #fff;
-						display: block;
-						padding: 12px 0px;
-					}
+					font-size: 18px;
+					text-transform: uppercase
 				}
-				hr {
-					height: 90px;
-					width: 1px;
-					background: #333;
-					position: absolute;
-					top: 24px;
-					left: 73px;
-				}
-
-				span {
-					background: #333;
-					padding: 4px 10px;
-					border-radius: 17px;
+				.subTitle {
 					color: #b0b0b0;
-					font-size: 12px;
-					font-weight: 500;
-					.text-upr {
-						position: absolute;
-					}
+					font-weight: 400;
+						font-size: 15px;
+					display: inline-block;
+					padding-left: 10px;
+					text-transform: uppercase
 				}
-				.inner-text{
-					position: relative;
-					left: 67px;
-					top: 20px;
-					h5 {
-						color: #fff;
-						display: inline-block;
-						font-size: 18px;
-						text-transform: uppercase
-					}
-					h6 {
-						color: #b0b0b0;
-						font-weight: 400;
-    					font-size: 15px;
-						display: inline-block;
-						padding-left: 10px;
-						text-transform: uppercase
-					}
-					p {
-						color: #fff;
-					}
+				.desc {
+					color: #fff;
+					max-width: 290px;
 				}
 			}
 		}
+		// hr {
+		// 	height: 90px;
+		// 	width: 1px;
+		// 	background: #333;
+		// 	position: absolute;
+		// 	top: 24px;
+		// 	left: 73px;
+		// }
 	}
 }
