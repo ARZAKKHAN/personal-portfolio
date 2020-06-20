@@ -8,11 +8,13 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
+
 import { AboutComponent } from './about/about.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { TopNavComponent } from './topNav/topNav.component';
 
 
 @NgModule({
@@ -22,7 +24,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     HomeComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    TopNavComponent,
   ],
   imports: [
     BrowserModule,

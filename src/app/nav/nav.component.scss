@@ -19,9 +19,10 @@
 			display: block;
 			margin: 12px 5px;
 			background: #ffb400 transparent;
-			opacity: 0.8;
+			opacity: 1;
 			width: 300px;
 			text-align: right;
+			border: 2px solid transparent;
 			padding: 5px;
 			-webkit-border-radius: 0 30px 30px 0;
 			-moz-border-radius: 0 30px 30px 0;
@@ -32,14 +33,17 @@
 			-o-transition: all 1s;
 			transition: all 1s;
 			&:hover {
-				-webkit-transform: translate(80px, 0);
-				-moz-transform: translate(80px, 0);
-				-ms-transform: translate(80px, 0);
-				-o-transform: translate(80px, 0);
-				transform: translate(80px, 0);
+				border-color: #eba704;
+				-webkit-transform: translate(100px, 0);
+				-moz-transform: translate(100px, 0);
+				-ms-transform: translate(100px, 0);
+				-o-transform: translate(100px, 0);
+				transform: translate(100px, 0);
 				background:  #ffb400;
 				a {
 					color: #ffff;
+					font-weight: bold;
+					letter-spacing: 2px;
 				}
 				i {
 					color: #ffffff;
