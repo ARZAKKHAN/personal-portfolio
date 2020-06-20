@@ -1,0 +1,40 @@
+{
+	"service" : [
+		{
+			"id" : "01",
+			"title": "Product Design",
+			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
+
+		},
+		{
+			"id" : "02",
+			"title": "It Management",
+			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
+
+		},
+		{
+			"id" : "03",
+			"title": "Data Security",
+			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
+
+		},
+		{
+			"id" : "04",
+			"title": "It Consultancy",
+			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
+
+		},
+		{
+			"id" : "05",
+			"title": "Cloude Services",
+			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
+
+		},
+		{
+			"id" : "06",
+			"title": "It Support Helpdesk",
+			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
+
+		}
+	]
+}

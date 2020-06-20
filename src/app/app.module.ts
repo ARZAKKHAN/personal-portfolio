@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { ServiceComponent } from './service/service.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     HomeComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
