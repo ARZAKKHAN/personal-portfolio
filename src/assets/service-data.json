@@ -2,36 +2,42 @@
 	"service" : [
 		{
 			"id" : "01",
+			"imgUrl": "./assets/img/stay-at-home.svg",
 			"title": "Product Design",
 			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
 
 		},
 		{
 			"id" : "02",
+			"imgUrl": "./assets/img/research.svg",
 			"title": "It Management",
 			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
 
 		},
 		{
 			"id" : "03",
+			"imgUrl": "./assets/img/security.svg",
 			"title": "Data Security",
 			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
 
 		},
 		{
 			"id" : "04",
+			"imgUrl": "./assets/img/talk.svg",
 			"title": "It Consultancy",
 			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
 
 		},
 		{
 			"id" : "05",
+			"imgUrl": "./assets/img/infrastructure.svg",
 			"title": "Cloude Services",
 			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
 
 		},
 		{
 			"id" : "06",
+			"imgUrl": "./assets/img/help.svg",
 			"title": "It Support Helpdesk",
 			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
 
