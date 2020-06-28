@@ -21,3 +21,24 @@ button {
 //     }
 
 // }
+.white-background {
+    position: relative;
+    background-color: #f1f1f1 !important;
+    opacity: 1;
+    z-index: 2;
+    &::before{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        content: '';
+        opacity: 0.3;
+        z-index: 0;
+        background-color: #3333333d;
+        // background-image: url('./assets/about-us-banner.png');
+        // background-position: bottom;
+        // background-size: auto;
+        // background-repeat: no-repeat;
+    }
+}
