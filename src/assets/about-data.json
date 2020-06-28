@@ -80,44 +80,65 @@
 			],
 			"skills" : [
 				{
-					"skillValue": "25",
-					"skillsPercent": "25%",
-					"skillsDesc": "Html"
+					"skillValue": "100",
+					"skillsPercent": "100%",
+					"skillsDesc": "HTML & HTML 5"
 				},
 				{
 					"skillValue": "89",
 					"skillsPercent": "89%",
-					"skillsDesc": "Javascript"
+					"skillsDesc": "CSS & CSS3"
 				},
 				{
 					"skillValue": "70",
 					"skillsPercent": "70%",
-					"skillsDesc": "Css"
+					"skillsDesc": "SASS - Less"
 				},
 				{
 					"skillValue": "66",
 					"skillsPercent": "66%",
-					"skillsDesc": "php"
+					"skillsDesc": "Javascrpt Es6"
 				},
 				{
 					"skillValue": "95",
 					"skillsPercent": "95%",
-					"skillsDesc": "Wordpress"
+					"skillsDesc": "Angular"
 				},
 				{
 					"skillValue": "50",
 					"skillsPercent": "50%",
-					"skillsDesc": "Jquery"
+					"skillsDesc": "React"
 				},
 				{
 					"skillValue": "65",
 					"skillsPercent": "65%",
-					"skillsDesc": "Angular"
+					"skillsDesc": "Node.js"
 				},
 				{
 					"skillValue": "45",
 					"skillsPercent": "45%",
-					"skillsDesc": "React"
+					"skillsDesc": "JQuery"
+				},
+
+				{
+					"skillValue": "95",
+					"skillsPercent": "95%",
+					"skillsDesc": "D3.js"
+				},
+				{
+					"skillValue": "50",
+					"skillsPercent": "50%",
+					"skillsDesc": "Express.js"
+				},
+				{
+					"skillValue": "65",
+					"skillsPercent": "65%",
+					"skillsDesc": "Designing"
+				},
+				{
+					"skillValue": "45",
+					"skillsPercent": "45%",
+					"skillsDesc": "Boostrap"
 				}
 			],
 			"educations": [

@@ -15,7 +15,6 @@ import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServiceComponent } from './service/service.component';
-import { TopNavComponent } from './topNav/topNav.component';
 
 
 @NgModule({
@@ -27,7 +26,6 @@ import { TopNavComponent } from './topNav/topNav.component';
     PortfolioComponent,
     ContactComponent,
     ServiceComponent,
-    TopNavComponent,
   ],
   imports: [
     BrowserModule,

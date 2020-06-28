@@ -147,6 +147,18 @@
 			}
 	}
 }
+
+.aboutus-content{
+	&-text h5{
+		font-size: 28px;
+		color: white;
+		word-spacing: 2px;
+		line-height: 55px;
+		text-align: center;
+		text-transform: capitalize;
+	}
+}
+
 .skill-section {
 	width: 100%;
 	hr {

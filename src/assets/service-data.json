@@ -9,38 +9,41 @@
 		},
 		{
 			"id" : "02",
-			"imgUrl": "./assets/img/research.svg",
-			"title": "It Management",
+			"imgUrl": "./assets/img/infrastructure.svg",
+			"title": "Creative Graphic Design",
 			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
 
 		},
 		{
 			"id" : "03",
-			"imgUrl": "./assets/img/security.svg",
-			"title": "Data Security",
+			"imgUrl": "./assets/img/research.svg",
+			"title": "Responsive Web Design",
 			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
 
 		},
 		{
 			"id" : "04",
-			"imgUrl": "./assets/img/talk.svg",
-			"title": "It Consultancy",
+			"imgUrl": "./assets/img/security.svg",
+			"title": "App & Web Development",
 			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
 
 		},
 		{
 			"id" : "05",
-			"imgUrl": "./assets/img/infrastructure.svg",
-			"title": "Cloude Services",
+			"imgUrl": "./assets/img/talk.svg",
+			"title": "Website Maintenance",
 			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
 
 		},
 		{
 			"id" : "06",
 			"imgUrl": "./assets/img/help.svg",
-			"title": "It Support Helpdesk",
+			"title": "Web Strategy",
 			"description": "Aspernatur sit adipisci quaerat unde at neque Redug Lagre dolor sit amet consectetu. independent agency, free from the internal demands."
 
 		}
+		
+		
 	]
 }
+

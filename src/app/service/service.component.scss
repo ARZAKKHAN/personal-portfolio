@@ -161,12 +161,20 @@ $corner-size: 3rem;
 
 .buttonWrapper{
 	display: flex;
+	margin: 20px auto;
+	flex-flow: row;
 	text-align: center;
 	justify-content: center;
 	margin-bottom: 40px;
+	h3 {
+		font-size: 30px;
+		color: white;
+		margin-right: 30px;
+		margin-top: 15px;
+	}
 }
 .btn-contact {
-	margin: 20px auto;
+	
 	letter-spacing: .02rem;
 	cursor: pointer;
 	background: transparent;
