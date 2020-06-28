@@ -82,6 +82,29 @@
 		<!-- https://www.egowebdesign.it/about-ego-web-design-agency/ -->
 
 		<div class="row">
+			<div class="ego-method">
+				<div class="col-md-12">
+					<hr class="seprator">
+					<h2>EGO METHOD</h2>
+				</div>
+				<div class="boxes">
+					<div class="back-img">
+						<img src="https://www.egowebdesign.it/wp-content/themes/deep/assets/dist/css/frontend/our-process/../../../images/ourprocess.png" alt="">
+					</div>
+					<div class="row">
+						<div class="col-md-3 col-sm-6" *ngFor="let egos of ego">
+							<div class="inner-box">
+								<i class="fa {{egos.icon}}"></i>
+								<h2>{{egos.title}} <span>{{egos.subTitle}}</span> </h2>
+								<p>{{egos.description}}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
 			<div class="skill-section">
 				<div class="col-md-12">
 					<hr class="seprator">

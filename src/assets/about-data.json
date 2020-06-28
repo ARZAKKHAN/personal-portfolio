@@ -78,6 +78,32 @@
 					"experiencedesc": "Years of Experience"
 				}
 			],
+			"egos" : [
+				{
+					"icon": "fa-male",
+					"title": "CONSULENZA ",
+					"subTitle": "DEDICATA",
+					"description": "• Gestione dedicata sia della parte strategica sia della parte operativa del lavoro."
+				},
+				{
+					"icon": "fa-sticky-note-o",
+					"title": "OBIETTIVI ",
+					"subTitle": "PREFISSATI",
+					"description": "•  Mission e raggiungimento degli obiettivi stabiliti strategicamente nella fase iniziale dell'attività."
+				},
+				{
+					"icon": "fa-arrows-alt",
+					"title": "CONTENUTI DI ",
+					"subTitle": "SUCCESSO",
+					"description": "•  Contenuti che generano valore e per il Cliente e per l'imprenditore che ne necessita per la propria attività."
+				},
+				{
+					"icon": "fa-eur",
+					"title": "ROI ",
+					"subTitle": "ASSICURATO",
+					"description": "•  Attività di report e di analisi delle attività permette di stabilire un reale dato sul ROI."
+				}
+			],
 			"skills" : [
 				{
 					"skillValue": "100",

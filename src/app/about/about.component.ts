@@ -17,17 +17,19 @@ export class AboutComponent implements OnInit {
   public experiences;
   public skills;
   public education;
+  public ego;
   constructor(private aboutservice: AboutService, private router: Router) { }
 
   ngOnInit(): void {
     this.aboutservice.getAllAbout().subscribe(({PersonalInfo}) => {
-      const {fields, title, secondfields, experience, skills, educations} = PersonalInfo;
+      const {fields, title, secondfields, experience, skills, educations, egos} = PersonalInfo;
       // this.abouts = about;
       this.fields = fields;
       this.secondfield = secondfields;
       this.experiences = experience;
       this.skills = skills;
       this.education = educations;
+      this.ego = egos;
       console.log(fields);
     });
   }

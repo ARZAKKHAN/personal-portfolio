@@ -158,7 +158,67 @@
 		text-transform: capitalize;
 	}
 }
+.ego-method {
+	width: 100%;
+	hr {
+		border-top: 1px solid #252525;
+			margin: 70px auto 55px;
+			max-width: 40%;
+	}
+	h2 {
+		color: #fff;
+		text-align: center;
+		font-size: 24px;
+		font-weight: 600;
+		margin-bottom: 40px;
+	}
+	.boxes {
+		position: relative;
+		.back-img{
+			position: absolute;
+			top: -83px;
+			opacity: 0.3;
+			img {
+				width: 104%;
+			}
+		}
+		.inner-box {
+			color: #fff;
+			text-align: center;
+			padding: 20px;
+			margin-bottom: 20px;
+			i {
+				width: 90px;
+				height: 90px;
+				border-radius: 50%;
+				font-size: 28px;
+				background: #252525;
+				color: #ffb400;
+				padding-top: 32px;
+				border: 1px solid #333;
+				transition: .4s;
+				&:hover {
+					box-shadow: 0 2px 25px -1px rgba(218, 140, 0, 0.1);
 
+				}
+			}
+			h2 {
+				font-size: 18px;
+				font-weight: 300;
+				margin: 0px;
+				padding: 25px 0px;
+				span {
+					color: #ffb400;
+				}
+			}
+			p {
+				font-size: 16px;
+				line-height: 28px;
+				color: #7f7f7f;
+			}
+		}
+	}
+}
 .skill-section {
 	width: 100%;
 	hr {
