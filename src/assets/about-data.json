@@ -81,27 +81,27 @@
 			"egos" : [
 				{
 					"icon": "fa-male",
-					"title": "CONSULENZA ",
-					"subTitle": "DEDICATA",
-					"description": "• Gestione dedicata sia della parte strategica sia della parte operativa del lavoro."
+					"title": "DEDICATED ",
+					"subTitle": "CONSULTING",
+					"description": "• Dedicated management of both the strategic and operational parts of the job."
 				},
 				{
 					"icon": "fa-sticky-note-o",
-					"title": "OBIETTIVI ",
-					"subTitle": "PREFISSATI",
-					"description": "•  Mission e raggiungimento degli obiettivi stabiliti strategicamente nella fase iniziale dell'attività."
+					"title": "GOALS ",
+					"subTitle": "SET YOURSELF",
+					"description": "• Mission and achievement of objectives set strategically in the initial phase of the activity."
 				},
 				{
 					"icon": "fa-arrows-alt",
-					"title": "CONTENUTI DI ",
-					"subTitle": "SUCCESSO",
-					"description": "•  Contenuti che generano valore e per il Cliente e per l'imprenditore che ne necessita per la propria attività."
+					"title": "SUCCESSFUL ",
+					"subTitle": "CONTENT",
+					"description": "• Content that generates value and for the customer and for the entrepreneur who needs it for their business."
 				},
 				{
 					"icon": "fa-eur",
-					"title": "ROI ",
-					"subTitle": "ASSICURATO",
-					"description": "•  Attività di report e di analisi delle attività permette di stabilire un reale dato sul ROI."
+					"title": "INSURED ",
+					"subTitle": "ROI",
+					"description": "•  Reporting and activity analysis allows you to establish real ROI data."
 				}
 			],
 			"skills" : [
@@ -170,39 +170,39 @@
 			"educations": [
 				{
 					"titleDuration": "2018-present",
-					"title": "Web Developer",
-					"titleSub": " - Envato",
-					"descriptions": "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, sed do tempor incididunt ut labore"
+					"title": "Web App",
+					"titleSub": " - Development",
+					"descriptions": "We develop highly customized, dynamic, and easy to integrate websites and applications which enable you to create a strong online footprint"
 				},
 				{
 					"titleDuration": "2018-present",
-					"title": "Web Developer",
-					"titleSub": " - Envato",
-					"descriptions": "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, sed do tempor incididunt ut labore"
+					"title": "Ecommerce",
+					"titleSub": " - Development",
+					"descriptions": "We offer customized, easy to integrate, and dynamic online shopping store solution to help you get the best out of your online business."
 				},
 				{
 					"titleDuration": "2018-present",
-					"title": "Web Developer",
-					"titleSub": " - Envato",
-					"descriptions": "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, sed do tempor incididunt ut labore"
+					"title": "Graphics",
+					"titleSub": " - Designing",
+					"descriptions": "We design all type of e publish material which is you use for product marketing and product portfolio like brochure,flyer,news letter, email marketing , etc…"
 				},
 				{
 					"titleDuration": "2018-present",
-					"title": "Web Developer",
-					"titleSub": " - Envato",
-					"descriptions": "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, sed do tempor incididunt ut labore"
+					"title": "Social Media",
+					"titleSub": " - Designing",
+					"descriptions": "We create your business page on face book, instagram, also we create face book shop for your business."
 				},
 				{
 					"titleDuration": "2018-present",
-					"title": "Web Developer",
-					"titleSub": " - Envato",
-					"descriptions": "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, sed do tempor incididunt ut labore"
+					"title": "API",
+					"titleSub": " - Development",
+					"descriptions": "We help you extend your online reach with API development enabling easy and accelerated integration between various softwares and technologies."
 				},
 				{
 					"titleDuration": "2018-present",
-					"title": "Web Developer",
-					"titleSub": " - Envato",
-					"descriptions": "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, sed do tempor incididunt ut labore"
+					"title": "Issues & Bug Fixes",
+					"titleSub": " - Find Solution",
+					"descriptions": "Resolve any issues and fix bugs actively during or after the completion of the coding and the development process as and when required."
 				}
 			]
 		}

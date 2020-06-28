@@ -85,7 +85,7 @@
 			<div class="ego-method">
 				<div class="col-md-12">
 					<hr class="seprator">
-					<h2>EGO METHOD</h2>
+					<h2>OUR METHOD</h2>
 				</div>
 				<div class="boxes">
 					<div class="back-img">
@@ -104,11 +104,41 @@
 			</div>
 		</div>
 
+		
+		<div class="row">
+			<div class="experience-section">
+				<div class="inner-heading">
+					<div class="col-md-12">
+						<hr>
+						<h2>WEB DEVELOPMENT SERVICES</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12" *ngFor="let educations of education">
+						<div class="boxes">
+							<div class="contentWrap">
+							<div class="icon">
+								<i class="fa fa-briefcase"></i>
+							</div>
+								<!-- <span class="year-title">{{educations.titleDuration}}</span> -->
+								<div class="inner-text">
+									<h5 class="title">{{educations.title}} </h5>
+									<h6 class="subTitle">{{educations.titleSub}}</h6>
+									<p class="desc">{{educations.descriptions}}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
 		<div class="row">
 			<div class="skill-section">
 				<div class="col-md-12">
 					<hr class="seprator">
-					<h2>TEAM SKILLS</h2>
+					<h2>TECH EXPERTISE</h2>
 				</div>
 				<div class="boxes">
 					<div class="row">
@@ -127,30 +157,14 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="row">
-			<div class="experience-section">
-				<div class="inner-heading">
-					<div class="col-md-12">
-						<hr>
-						<h2>EXPERIENCE</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 col-sm-6 col-xs-12" *ngFor="let educations of education">
-						<div class="boxes">
-							<div class="contentWrap">
-							<div class="icon">
-								<i class="fa fa-briefcase"></i>
-							</div>
-								<span class="year-title">{{educations.titleDuration}}</span>
-								<div class="inner-text">
-									<h5 class="title">{{educations.title}} </h5>
-									<h6 class="subTitle">{{educations.titleSub}}</h6>
-									<p class="desc">{{educations.descriptions}}</p>
-								</div>
-							</div>
-						</div>
-					</div>
+			<div class="col-md-12">
+				<div class="buttonWrapper">
+					<h3>Ready to discuss Your Project?</h3>
+					<a routerLink="/contact" here="javascript:;" class="btn btn-contact">
+						<span>Get Started</span>
+					</a>
 				</div>
 			</div>
 		</div>

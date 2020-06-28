@@ -1,4 +1,6 @@
 @import '../../device.scss';
+$border-width: .5rem;
+$corner-size: 3rem;
 .about-content {
 	text-align: center;
 	padding-top: 200px;
@@ -170,7 +172,7 @@
 		text-align: center;
 		font-size: 24px;
 		font-weight: 600;
-		margin-bottom: 40px;
+		margin-bottom: 60px;
 	}
 	.boxes {
 		position: relative;
@@ -223,7 +225,7 @@
 	width: 100%;
 	hr {
 		border-top: 1px solid #252525;
-			margin: 70px auto 55px;
+			margin: 40px auto 55px;
 			max-width: 40%;
 	}
 	h2 {
@@ -231,7 +233,7 @@
 		text-align: center;
 		font-size: 24px;
 		font-weight: 600;
-		margin-bottom: 40px;
+		margin-bottom: 60px;
 	}
 	.boxes {
 		.wrapper-spinner {
@@ -389,4 +391,83 @@
 		// 	left: 73px;
 		// }
 	}
+}
+
+
+.buttonWrapper{
+	display: flex;
+	// margin: 40px auto;
+	flex-flow: row;
+	margin-top: 80px;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 70px;
+	position: relative;
+	&::before {
+		position: absolute;
+		width: 80%;
+		background-color: #252525;
+		height: 1px;
+		content: '';
+		left: 0;
+		right: 0;
+		top: -50px;
+		margin: 0px auto;
+	}
+	h3 {
+		font-size: 30px;
+		color: white;
+		margin-right: 30px;
+		margin-top: 15px;
+	}
+}
+.btn-contact {
+	
+	letter-spacing: .02rem;
+	cursor: pointer;
+	background: transparent;
+	border: .1rem solid currentColor;
+	padding: 1.1rem 1rem;
+	color: #ffb400;
+	position: relative;
+	transition: color .3s;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 18px;
+	&:hover {
+		color: #ffb400;
+		&::before { width: 0; }
+		&::after { height: 0; }
+	}
+	&:active {
+		border-width: .5rem / 2;
+	}
+	span {
+		position: relative;
+		z-index: 2;
+		color: #fff;
+	}
+		&::before, &::after {
+		content: '';
+		position: absolute;
+		background: #111;
+		z-index: 1;
+		transition: all .3s;
+		}
+		&::before {
+		width: calc(100% - #{$corner-size});
+		height: calc(101% + #{$border-width * 2});
+		top: -$border-width;
+		left: 50%;
+		transform: translateX(-50%);
+		}
+		&::after {
+		height: calc(100% - #{$corner-size});
+		width: calc(101% + #{$border-width * 2});
+		left: -$border-width;
+		top: 50%;
+		transform: translateY(-50%);
+		}
+	
 }
