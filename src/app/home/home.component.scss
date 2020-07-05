@@ -1,6 +1,17 @@
 @import '../../device.scss';
-.whiteBg {
-	background-color: #fff !important;
+// .whiteBg {
+// 	background-color: #fff !important;
+// }
+.background-img {
+	position: absolute;
+	opacity: 0.8;
+    left: 51%;
+    width: 49%;
+	img {
+		width: 100%;
+    	height: 730px;
+
+	}
 }
 .sliderHome{
 	img {
@@ -9,8 +20,8 @@
 }
 
 .content {
-	padding-top: 220px;
-	position: fixed;
+	padding-top: 160px;
+	position: relative;
 	// background-image: url('../../assets/home-banner.png');
 	h1{
 		font-size: 45px;
@@ -28,7 +39,8 @@
 	p{
 		font-size: 18px;
 		line-height: 32px;
-		color: white;
+		color: #b0b0b0;
+		font-weight: 200;
 	}
 	button {
 		background: #ffb400;

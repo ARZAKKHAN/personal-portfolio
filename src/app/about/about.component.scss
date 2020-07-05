@@ -1,4 +1,5 @@
 @import '../../device.scss';
+@import '../../divhover.scss';
 $border-width: .5rem;
 $corner-size: 3rem;
 .about-content {
@@ -154,8 +155,9 @@ $corner-size: 3rem;
 	&-text h5{
 		font-size: 28px;
 		color: white;
-		word-spacing: 2px;
-		line-height: 55px;
+		word-spacing: 1px;
+		line-height: 50px;
+		font-weight: 100;
 		text-align: center;
 		text-transform: capitalize;
 	}
@@ -236,42 +238,9 @@ $corner-size: 3rem;
 		margin-bottom: 60px;
 	}
 	.boxes {
-		.wrapper-spinner {
-			text-align: center;
-			display: flex;
-			justify-content: center;
-			flex-flow: column;
-			h2 {
-				top: 32px;
-				color: #fff;
-				left: 0;
-				right: 0;
-				text-align: center;
-				font-size: 24px;
-				font-weight: 600;
-				margin-bottom: 40px;
-				position: absolute;
-			}
-		}
-		.wraper {
-			width: 120px;
-			height: 120px;
-			border-radius: 50%;
-			border: 8px solid #ffb400;
-			position: relative;
-			left: 70px;
-			display: block;
-			transition: 0.8s;
-			&:hover {
-				background: #ffb400;
-			}
-			h2 {
-				font-size: 27px;
-				position: absolute;
-				top: 35px;
-				left: 30px;
-				color: #fff;
-			}
+		margin-bottom: 30px;
+		.icon-wrap {
+			@extend .icon-wrap;
 		}
 		h4 {
 			text-align: center;
@@ -297,7 +266,6 @@ $corner-size: 3rem;
 	}
 }
 .experience-section {
-
 
 	.inner-heading {
 		width: 100%;
@@ -422,7 +390,7 @@ $corner-size: 3rem;
 	}
 }
 .btn-contact {
-	
+
 	letter-spacing: .02rem;
 	cursor: pointer;
 	background: transparent;
@@ -469,7 +437,7 @@ $corner-size: 3rem;
 		top: 50%;
 		transform: translateY(-50%);
 		}
-	
+
 }
 
 
@@ -496,7 +464,7 @@ $corner-size: 3rem;
 // 	top: 0;
 // 	left: 0;
 //   }
-  
+
 //   button::after {
 // 	content: "";
 // 	position: absolute;
@@ -506,11 +474,11 @@ $corner-size: 3rem;
 // 	bottom: 0;
 // 	right: 0;
 //   }
-  
+
 //   button:hover:before, button:hover:after  {
 // 	border-color: #268b9b !important;
 //   }
-  
+
 //   button:hover:before {
 // 	width: 100%;
 // 	height: 100%;
@@ -520,12 +488,12 @@ $corner-size: 3rem;
 // 	border-right: none;
 // 	transition: height .3s linear, width 0.6s linear .3s;
 //   }
-  
+
 //   button:hover:after {
 // 	width: 100%;
 // 	height: 100%;
 // 	border: 4px solid;
-	
+
 // 	box-sizing: border-box;
 // 	border-left: none;
 // 	border-bottom: none;

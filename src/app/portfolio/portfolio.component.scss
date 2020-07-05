@@ -1,5 +1,17 @@
 @import '../../device';
+.backgound {
+	position: absolute;
+	width: 100%;
+	opacity: 0.017;
+	top: 180px;
+	img {
+		width: 100%;
+	}
+}
+.main-wrap {
+	position: relative;
 
+}
 .portfolio-content {
 	text-align: center;
 	padding-top: 200px;
@@ -19,9 +31,9 @@
 	.title {
 		position: relative;
 		top: -75px;
-		
+
 		h2 {
-			
+
 			font-size: 56px;
 			font-weight: 900;
 			color: #fff;
@@ -31,7 +43,7 @@
 		}
 	}
 	@include tablet {
-		
+
 		.title {
 			h2 {
 				font-size: 46px;
@@ -58,7 +70,7 @@
 	}
 }
 .grid-wrap {
-	
+
 	.boxes-wrap {
 
 		ul {
@@ -77,6 +89,7 @@
 					position: relative;
 					overflow: hidden;
 					border-radius: 8px;
+					max-height: 250px;
 					&::before {
 						position: absolute;
 						top: 0;

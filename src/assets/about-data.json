@@ -106,65 +106,52 @@
 			],
 			"skills" : [
 				{
-					"skillValue": "100",
-					"skillsPercent": "100%",
-					"skillsDesc": "HTML & HTML 5"
+					"icons": "./assets/angular.png",
+					"title": "Angular"
 				},
 				{
-					"skillValue": "89",
-					"skillsPercent": "89%",
-					"skillsDesc": "CSS & CSS3"
+					"icons": "./assets/html5.png",
+					"title": "HTML 5"
 				},
 				{
-					"skillValue": "70",
-					"skillsPercent": "70%",
-					"skillsDesc": "SASS - Less"
+					"icons": "./assets/css3.png",
+					"title": "Css 3"
 				},
 				{
-					"skillValue": "66",
-					"skillsPercent": "66%",
-					"skillsDesc": "Javascrpt Es6"
+					"icons": "./assets/react.png",
+					"title": "React"
 				},
 				{
-					"skillValue": "95",
-					"skillsPercent": "95%",
-					"skillsDesc": "Angular"
+					"icons": "./assets/node.png",
+					"title": "Node.js"
 				},
 				{
-					"skillValue": "50",
-					"skillsPercent": "50%",
-					"skillsDesc": "React"
+					"icons": "./assets/javascript.png",
+					"title": "Javascript"
 				},
 				{
-					"skillValue": "65",
-					"skillsPercent": "65%",
-					"skillsDesc": "Node.js"
+					"icons": "./assets/typescript.png",
+					"title": "Typescript"
 				},
 				{
-					"skillValue": "45",
-					"skillsPercent": "45%",
-					"skillsDesc": "JQuery"
-				},
-
-				{
-					"skillValue": "95",
-					"skillsPercent": "95%",
-					"skillsDesc": "D3.js"
+					"icons": "./assets/bootstrap.png",
+					"title": "bootstrap"
 				},
 				{
-					"skillValue": "50",
-					"skillsPercent": "50%",
-					"skillsDesc": "Express.js"
+					"icons": "./assets/mongodb.png",
+					"title": "Mongodb"
 				},
 				{
-					"skillValue": "65",
-					"skillsPercent": "65%",
-					"skillsDesc": "Designing"
+					"icons": "./assets/java.png",
+					"title": "Java"
 				},
 				{
-					"skillValue": "45",
-					"skillsPercent": "45%",
-					"skillsDesc": "Boostrap"
+					"icons": "./assets/python.png",
+					"title": "Python"
+				},
+				{
+					"icons": "./assets/sass.png",
+					"title": "Sass and less"
 				}
 			],
 			"educations": [

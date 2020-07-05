@@ -9,13 +9,13 @@ import { DOCUMENT } from '@angular/common';
 export class HomeComponent implements OnInit {
 
   constructor(@Inject(DOCUMENT) document, public r: Renderer2) {
-    r.addClass(document.body, 'white-background');
+    // r.addClass(document.body, 'white-background');
   }
 
   ngOnInit(): void {
   }
 
-  ngOnDestroy() {
-    this.r.removeClass(document.body, 'white-background');
-  }
+  // ngOnDestroy() {
+  //   this.r.removeClass(document.body, 'white-background');
+  // }
 }
