@@ -2,9 +2,12 @@
 // .whiteBg {
 // 	background-color: #fff !important;
 // }
+.main {
+	background: #ffc400;
+	height: 730px;
+}
 .background-img {
 	position: absolute;
-	opacity: 0.8;
     left: 51%;
     width: 49%;
 	img {
@@ -29,7 +32,7 @@
 		font-weight: 700;
 		color: white;
 		span {
-			color: #ffb400;
+			color: #252525;
 		}
 	}
 	h2{
@@ -39,11 +42,11 @@
 	p{
 		font-size: 18px;
 		line-height: 32px;
-		color: #b0b0b0;
+		color: #252525;
 		font-weight: 200;
 	}
 	button {
-		background: #ffb400;
+		background: #252525;
 		width: 200px;
 		height: 45px;
 		border-radius: 22px;
@@ -62,12 +65,14 @@
 }
 
 .logoHeader{
-	background: #ffb400;
+	background: #252525;
     display: inline-block;
     font-size: 40px;
     padding: 20px 29px;
     text-align: center;
-    margin-bottom: 10px;
+	margin-bottom: 10px;
+	color: #ffff;
+	font-weight: 100;
 }
 
 .white-background {
