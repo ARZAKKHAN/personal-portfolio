@@ -4,7 +4,10 @@
 // }
 .main {
 	background: #ffc400;
-	height: 730px;
+	min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
 }
 .background-img {
 	position: absolute;
@@ -12,8 +15,15 @@
     width: 49%;
 	img {
 		width: 100%;
-    	height: 730px;
+		margin: auto;
+		top: 0;
+		bottom: 0;
 
+	}
+}
+@include tablet {
+	.background-img {
+		display: none;
 	}
 }
 .sliderHome{
@@ -63,7 +73,9 @@
 		}
 	}
 }
+@include tablet {
 
+}
 .logoHeader{
 	background: #252525;
     display: inline-block;

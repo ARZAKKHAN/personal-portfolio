@@ -1,8 +1,7 @@
-import { Router } from '@angular/router';
+
 import { AboutService } from './about.service';
 import { Component, OnInit } from '@angular/core';
-import {ThemePalette} from '@angular/material/core';
-import {ProgressSpinnerMode} from '@angular/material/progress-spinner';
+
 
 
 @Component({
@@ -18,7 +17,7 @@ export class AboutComponent implements OnInit {
   public skills;
   public education;
   public ego;
-  constructor(private aboutservice: AboutService, private router: Router) { }
+  constructor(private aboutservice: AboutService, ) { }
 
   ngOnInit(): void {
     this.aboutservice.getAllAbout().subscribe(({PersonalInfo}) => {

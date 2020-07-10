@@ -1,6 +1,6 @@
 {
   "name": "portfolio-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -17,11 +17,9 @@
     "@angular/compiler": "~9.1.9",
     "@angular/core": "~9.1.9",
     "@angular/forms": "~9.1.9",
-    "@angular/material": "^9.2.4",
     "@angular/platform-browser": "~9.1.9",
     "@angular/platform-browser-dynamic": "~9.1.9",
     "@angular/router": "~9.1.9",
-    "angular-font-awesome": "^3.1.2",
     "bootstrap": "^4.5.0",
     "classlist.js": "^1.1.20150312",
     "font-awesome": "^4.7.0",

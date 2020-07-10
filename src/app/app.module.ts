@@ -3,8 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
-import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
@@ -33,8 +31,6 @@ import { ServiceComponent } from './service/service.component';
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
-    MatProgressSpinnerModule,
-    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
